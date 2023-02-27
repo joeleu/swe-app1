@@ -1,7 +1,7 @@
 language: python
 
 python:
-  - "3.6"
+  - "3.10-dev"
 
 install:
   - pip install -r swe_app1/requirements.txt

@@ -26,7 +26,7 @@ SECRET_KEY = "django-insecure-4cg57y)7au*d$ry^4)$zj0+_u&1%55)2n7#+901j9*_eu7(zvq
 DEBUG = True
 
 ALLOWED_HOSTS = [
-    "swe-app1.eba-ra2wuhpy.us-east-1.elasticbeanstalk.com",
+    "localhost",
 ]
 
 CSRF_TRUSTED_ORIGINS = []
