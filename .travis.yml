@@ -1,7 +1,7 @@
 language: python
 
 python:
-  - "nightly"
+  - "3.10"
 
 install:
   - pip install -r swe_app1/requirements.txt

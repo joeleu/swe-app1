@@ -8,9 +8,9 @@ cd "${TRAVIS_BUILD_DIR}/swe_app1"
 python manage.py migrate
 
 # Check formatting and lint
-python -m black --check .
+black --check .
 
-flake8 ./
+flake8 .
 
 # Test and measure coverage
 python manage.py test
