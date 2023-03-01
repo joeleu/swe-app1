@@ -7,4 +7,4 @@ install:
   - pip install -r swe_app1/requirements.txt
 
 script:
-  - python swe_app1/manage.py test
+  - ./scripts/travis.sh
