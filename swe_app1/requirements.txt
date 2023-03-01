@@ -6,7 +6,7 @@ click==8.0.4
 click-default-group-wheel==1.2.2
 coverage==6.2
 coveralls==3.3.1
-Django==4.1.6
+Django==4.1.7
 docopt==0.6.2
 flake8==6.0.0
 idna==3.4
