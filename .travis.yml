@@ -7,7 +7,7 @@ before_install:
   - cd swe_app1
 
 install:
-  - pip install -r swe_app1/requirements.txt
+  - pip install -r requirements.txt
 
 script:
   - python manage.py migrate
