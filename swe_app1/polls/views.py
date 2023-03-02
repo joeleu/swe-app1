@@ -9,6 +9,7 @@ from polls import models
 
 class IndexView(generic.ListView):
     """Default view listing questions."""
+
     template_name = "polls/index.html"
     context_object_name = "latest_question_list"
 
@@ -19,12 +20,14 @@ class IndexView(generic.ListView):
 
 class DetailView(generic.DetailView):
     """Higher detail level view of individual questions."""
+
     model = models.Question
     template_name = "polls/detail.html"
 
 
 class ResultsView(generic.DetailView):
     """Detailed view of results."""
+
     model = models.Question
     template_name = "polls/results.html"
 
