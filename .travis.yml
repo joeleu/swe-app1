@@ -3,8 +3,16 @@ language: python
 python:
   - "3.6"
 
+before_install:
+  - cd swe_app1
+
 install:
   - pip install -r swe_app1/requirements.txt
 
 script:
-  - ./scripts/travis.sh
+  - python manage.py migrate
+  - black --check .
+  - flake8 .
+  - python manage.py test
+  - coverage run --source "." manage.py test
+  - coveralls
