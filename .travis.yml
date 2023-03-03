@@ -3,9 +3,6 @@ language: python
 python:
   - "3.6"
 
-before_install:
-  - cd swe_app1
-
 install:
   - pip install -r requirements.txt
 
