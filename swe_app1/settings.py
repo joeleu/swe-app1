@@ -30,9 +30,7 @@ ALLOWED_HOSTS = [
     "swe-app1-env.eba-pzhcu7nt.us-east-1.elasticbeanstalk.com",
 ]
 
-CSRF_TRUSTED_ORIGINS = [
-    "https://swe-app1-env.eba-pzhcu7nt.us-east-1.elasticbeanstalk.com",
-]
+CSRF_TRUSTED_ORIGINS = []
 
 # Application definition
 
