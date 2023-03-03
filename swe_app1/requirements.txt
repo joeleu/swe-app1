@@ -17,7 +17,6 @@ pathspec
 platformdirs
 pycodestyle
 pyflakes
-pysqlite3
 python-dateutil
 requests
 six
